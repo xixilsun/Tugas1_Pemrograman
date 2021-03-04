@@ -1,4 +1,4 @@
-val sum: (Int, Int)->Int = {valueA, valueB -> valueA + valueB}
+val substract: (Int, Int)->Int = {valueA, valueB -> valueA - valueB}
 
 fun main(){
     print("Masukkan value A : ")
@@ -6,5 +6,5 @@ fun main(){
     print("Masukkan value B : ")
     val valueB = readLine()!!.toInt()
 
-    println("Hasil penjumlahan dari Value A dan value B : "+sum.invoke(valueA,valueB))
+    println("Hasil pengurangan dari Value A dan value B : "+ substract.invoke(valueA,valueB))
 }
